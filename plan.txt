@@ -1,0 +1,12 @@
+// Plan:
+// Take canvas/image to bytes
+// Throw that to WASM
+// Have WASM edit it
+// Throw back bytes
+
+// Plan 1
+// Take image
+// Convert to bytes
+// Send bytes to get image
+// get dimensions etc from bytes
+// Print dimensions
